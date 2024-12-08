@@ -1,0 +1,100 @@
+/* Corps de la page */
+body {
+    background-color: rgb(255, 249, 191);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titres */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/* Liens */
+a {
+    text-decoration: none;
+    color: #3498DB;
+}
+
+/* Bannière */
+.banner {
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 50%), url(Images/Banner.png);
+    color: dark;
+    padding: 40px 0;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 50px;
+    margin: 0;
+    color: rgb(203, 157, 240);
+}
+
+.banner h2 {
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: bolder;
+    color: rgb(240, 193, 225);
+    opacity: 0.8;
+}
+
+/* Conteneur général */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Profil */
+.profil {
+    color: rgb(203, 157, 240);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Section Produits */
+.produits {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.produit {
+    flex-basis: 22%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.produit img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.produit h3 {
+    margin-top: 10px;
+    color: rgb(203, 157, 240);
+}
+
+.commander {
+    display: inline-block;
+    background-color: blue;
+    padding: 10px 25px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.images {
+    max-width: 220px;
+    display: block;
+    margin: 20px auto;
+}
